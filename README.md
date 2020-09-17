@@ -4,4 +4,8 @@ A ready-to-code template for a Node/Express app written in TypeScript set up wit
 
 ## Installing / Getting started
 
-Clone the repository and `npm install` dependencies. Run `npm run dev` to start the server in development mode.
+- Clone the repository and `npm install` dependencies.
+- Create a `.env`-file in the project root directory, and add a `PORT` variable to it. Otherwise the server will start at the `default port 5000`
+- Run `npm run dev` to start the server in development mode.
+- Run `npm run tsc` to create a compiled production build of `.ts`-files.
+- Run `npm start` to start the server in production mode.
