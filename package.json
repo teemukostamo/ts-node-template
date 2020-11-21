@@ -4,6 +4,7 @@
   "description": "A template for a TypeScript Node/Express app.",
   "main": "index.js",
   "scripts": {
+    "build": "tsc",
     "dev": "cross-env NODE_ENV=development ts-node-dev index.ts",
     "lint": "eslint --ext .js,.jsx,.ts,.tsx ./",
     "start": "cross-env NODE_ENV=production node build/index.js",
